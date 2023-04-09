@@ -1,10 +1,11 @@
 # data-structures-and-algorithms
 
-| Code Challenge | Description         |  Link                                     |
-| -------------- | ------------        | ----------------                          |
-|       1        | Reverse-Array       | [reverseArray](./reverseArray)            |
-|       2        | Array-Insert-Shift  | [arrayInsertShift](./arrayInsertShift/)   |
-|       3        | array-binary-search | [arrayBinarySearch](./arrayBinarySearch/) | 
+| Code Challenge | Description         |  Link                                       |
+| -------------- | ------------        | ----------------                            |
+|       1        | reverse-array       | [Reverse Array](./reverseArray)             |
+|       2        | array-insert-shift  | [Array Insert Shift](./arrayInsertShift/)   |
+|       3        | array-binary-search | [Array Binary Search](./arrayBinarySearch/) | 
+
 
 ---
 

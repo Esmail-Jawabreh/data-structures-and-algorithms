@@ -1,2 +1,2 @@
 ## array-binary-search
-![array-binary-search Whiteboard]()
+![array-binary-search Whiteboard](./binarySearch_WhiteBoard.png)
