@@ -1,5 +1,5 @@
 ## array-binary-search
-* Code Challenge 3
+* Code Challenge 03
 ---
 <br>
 

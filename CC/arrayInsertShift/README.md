@@ -1,5 +1,5 @@
 ## array-insert-shift
-* Code Challenge 2
+* Code Challenge 02
 ---
 <br>
 
