@@ -2,14 +2,12 @@
 - Code Challenge 05
 
 ---
-<br>
 
 #### Challenge Type: Implementation
 #### Challenge Instruction: 
 <br>
 
 ### Features:
-<br>
 
 #### Node: 
 - Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
@@ -51,7 +49,6 @@
 <br>
 
 ### Structure and Testing:
-<br>
 
 #### Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
 
@@ -79,7 +76,6 @@
 <br>
 
 ### Stretch Goal:
-<br>
 
 #### Create a new branch called <strong>doubly-linked-list</strong>, and, using the resources available to you online, implement a doubly linked list (completely separate from your singly linked list).
 
