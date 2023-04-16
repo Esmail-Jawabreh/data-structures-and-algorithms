@@ -1,5 +1,5 @@
 ## Linked Lists
-- Code Challenge 05
+- Code Challenge 05 - Code Challenge 06
 
 ---
 
@@ -7,6 +7,7 @@
 #### Challenge Instruction: 
 <br>
 
+## Challenge 05
 ### Features:
 
 #### Node: 
@@ -69,14 +70,66 @@
 </ul>
 <br>
 
-#### Ensure your tests are passing before you submit your solution.
-
 ---
 <br>
 
 ### Stretch Goal:
 
 #### Create a new branch called <strong>doubly-linked-list</strong>, and, using the resources available to you online, implement a doubly linked list (completely separate from your singly linked list).
+
+---
+<br>
+
+## Challenge 06
+### Feature:
+#### Write the following methods for the Linked List class:
+<ul>
+
+<li>append</li>
+<ul>
+<li>arguments: new value</li>
+<li>adds a new node with the given value to the end of the list</li>
+</ul>
+
+<li>insert before</li>
+<ul>
+<li>arguments: value, new value</li>
+<li>adds a new node with the given new value immediately before the first node that has the value specified</li>
+</ul>
+
+<li>insert after</li>
+<ul>
+<li>arguments: value, new value</li>
+<li>adds a new node with the given new value immediately after the first node that has the value specified</li>
+</ul>
+
+</ul>
+
+---
+<br>
+
+### Unit Tests:
+
+#### tests to prove the following functionality:
+
+- Can successfully add a node to the end of the linked list
+- Can successfully add multiple nodes to the end of a linked list
+- Can successfully insert a node before a node located i the middle of a linked list
+- Can successfully insert a node before the first node of a linked list
+- Can successfully insert after a node in the middle of the linked list
+- Can successfully insert a node after the last node of the linked list
+--- 
+<br>
+
+### Stretch Goal:
+
+#### write an additional method to delete a node with the given value from the linked list.
+--- 
+<br>
+
+## WhiteBoard
+
+![linked lists whiteboard](./LinkedLists_WhiteBoard.png)
 
 ---
 <br>

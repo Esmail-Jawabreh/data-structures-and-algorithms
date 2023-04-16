@@ -13,6 +13,46 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
+    def append(self, value):
+        new_node = Node(value)
+        if self.head is None:
+            self.head = new_node
+            return
+        current_node = self.head
+        while current_node.next:
+            current_node = current_node.next
+        current_node.next = new_node
+
+    def insert_before(self, value, new_value):
+        new_node = Node(new_value)
+        if self.head is None:
+            self.head = new_node
+            return
+        if self.head.value == value:
+            new_node.next = self.head
+            self.head = new_node
+            return
+        current_node = self.head
+        while current_node.next:
+            if current_node.next.value == value:
+                new_node.next = current_node.next
+                current_node.next = new_node
+                return
+            current_node = current_node.next
+
+    def insert_after(self, value, new_value):
+        new_node = Node(new_value)
+        if self.head is None:
+            self.head = new_node
+            return
+        current_node = self.head
+        while current_node:
+            if current_node.value == value:
+                new_node.next = current_node.next
+                current_node.next = new_node
+                return
+            current_node = current_node.next
+
     def includes(self, value):
         current_node = self.head
         while current_node:
@@ -29,3 +69,21 @@ class LinkedList:
             current_node = current_node.next
         result += "NULL"
         return result
+
+    def delete(self, value):
+        current_node = self.head
+        if current_node and current_node.value == value:
+            self.head = current_node.next
+            current_node = None
+            return
+
+        previous_node = None
+        while current_node and current_node.value != value:
+            previous_node = current_node
+            current_node = current_node.next
+
+        if current_node is None:
+            return
+
+        previous_node.next = current_node.next
+        current_node = None
