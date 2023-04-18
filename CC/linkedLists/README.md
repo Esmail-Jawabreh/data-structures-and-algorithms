@@ -1,5 +1,5 @@
 ## Linked Lists
-- Code Challenge 05 - Code Challenge 06
+- Code Challenge 05 & Code Challenge 06 & Code Challenge 07
 
 ---
 
@@ -45,7 +45,7 @@
 </ul>
 </ul>
 
----
+
 <br>
 
 ### Structure and Testing:
@@ -70,12 +70,13 @@
 </ul>
 <br>
 
----
+
 <br>
 
 ### Stretch Goal:
 
 #### Create a new branch called <strong>doubly-linked-list</strong>, and, using the resources available to you online, implement a doubly linked list (completely separate from your singly linked list).
+<br>
 
 ---
 <br>
@@ -105,7 +106,7 @@
 
 </ul>
 
----
+
 <br>
 
 ### Unit Tests:
@@ -118,18 +119,57 @@
 - Can successfully insert a node before the first node of a linked list
 - Can successfully insert after a node in the middle of the linked list
 - Can successfully insert a node after the last node of the linked list
---- 
+
 <br>
 
 ### Stretch Goal:
 
 #### write an additional method to delete a node with the given value from the linked list.
---- 
+
 <br>
 
 ## WhiteBoard
 
-![linked lists whiteboard](./LinkedLists_WhiteBoard.png)
+![linked lists whiteboard](./assets/WhiteBoard1.png)
+<br>
+
+---
+<br>
+
+## Challenge 07
+### Feature:
+
+#### Write the following method for the Linked List class:
+
+#### kth from end
+#### argument: a number, k, as a parameter.
+#### Return the node’s value that is k places from the tail of the linked list.
+#### You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+<br>
+
+### Unit Tests:
+
+#### Write tests for the following scenarios, and any other cases that help you ensure your code is working as expected.
+
+- Where k is greater than the length of the linked list
+- Where k and the length of the list are the same
+- Where k is not a positive integer
+- Where the linked list is of a size 1
+- “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+
+<br>
+
+### Stretch Goal:
+#### Once you’ve achieved a working solution, implement a method that finds the node at the middle of the Linked List.
+
+<br>
+
+## WhiteBoard
+
+![linked lists whiteboard](./assets/WhiteBoard2.png)
+<br>
 
 ---
 <br>
