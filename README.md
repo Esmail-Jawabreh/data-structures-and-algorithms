@@ -9,6 +9,7 @@
 |       5        | linked-lists: Singly Linked Lists & Doubly Linked List | [Linked Lists](./CC/linkedLists/)              |
 |       6        | linked-lists: Linked List insertions                   | [Linked Lists](./CC/linkedLists/)              |
 |       7        | linked-lists: Linked List kth                          | [Linked Lists](./CC/linkedLists/)              |
+|       8        | linked-lists: Linked List zip                          | [Linked Lists](./CC/linkedLists/)              |
 
 ---
 
