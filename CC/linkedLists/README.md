@@ -1,5 +1,5 @@
 ## Linked Lists
-- Code Challenge 05 & Code Challenge 06 & Code Challenge 07
+- Code Challenge 05 & 06 & 07 & 08
 
 ---
 
@@ -141,10 +141,10 @@
 
 #### Write the following method for the Linked List class:
 
-#### kth from end
-#### argument: a number, k, as a parameter.
-#### Return the node’s value that is k places from the tail of the linked list.
-#### You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+- kth from end
+- argument: a number, k, as a parameter.
+- Return the node’s value that is k places from the tail of the linked list.
+- You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
 
 
 <br>
@@ -170,6 +170,37 @@
 
 ![linked lists whiteboard](./assets/WhiteBoard2.png)
 <br>
+
+---
+<br>
+
+## Challenge 08
+### Feature:
+- Write a function called zip lists
+- Arguments: 2 linked lists
+- Return: New Linked List, zipped as noted below
+- Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+- Try and keep additional space down to O(1)
+- You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+<br>
+
+### Unit Tests
+
+#### On this, and all future challenges, write tests for any cases that help you ensure your code is working as expected. Think through different edge cases to determine what tests will ensure your code is covered.
+
+<br>
+
+### Stretch Goal
+#### Once you’ve achieved a working solution, implement another function that merges two sorted linked lists into a single sorted linked list.
+
+<br>
+
+## WhiteBoard
+
+![linked lists whiteboard](./assets/WhiteBoard3.png)
+<br>
+
 
 ---
 <br>
