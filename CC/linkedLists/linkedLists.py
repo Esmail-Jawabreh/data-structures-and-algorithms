@@ -128,3 +128,37 @@ class LinkedList:
             fast = fast.next.next
 
         return slow.value
+
+    @staticmethod
+    def zipLists(list1:'LinkedList', list2:'LinkedList'):
+        """
+        Zips two linked lists together into one linked list, alternating between nodes from each list.
+        Parameters:
+        ----------
+        list1 : LinkedList
+            The first linked list to zip.
+        list2 : LinkedList
+            The second linked list to zip.
+        Returns:
+        -------
+        LinkedList
+            A new linked list containing the zipped nodes.
+        """
+        
+        
+        if list1.head is None:
+            return list2
+        if list2.head is None:
+            return list1
+        list1_current = list1.head
+        list2_current = list2.head
+        while list1_current and list2_current:
+            list1_next = list1_current.next
+            list2_next = list2_current.next
+            list1_current.next = list2_current
+            if list1_next is None:
+                break
+            list2_current.next = list1_next
+            list1_current = list1_next
+            list2_current = list2_next
+        return list1
