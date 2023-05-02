@@ -7,4 +7,4 @@
 | Challenge              | Link                                             |
 | ----------             | ----------------                                 |
 | reverse-Linked-List    | [Reverse Linked List](./palindrome_LinkedList/)  |
-| palindrome-Linked-List | [palindrome Linked List](./reverse_LinkedList/)  |
+| palindrome-Linked-List | [Palindrome Linked List](./reverse_LinkedList/)  |
