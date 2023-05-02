@@ -1,5 +1,5 @@
 import pytest
-from CC.Mock_Interviews.matrix_Sum.matrixSum import sum_rows
+from CC.Mock_Interviews.CC04.matrix_Sum.matrixSum import sum_rows
 
 
 def test_one():

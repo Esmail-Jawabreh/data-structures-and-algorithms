@@ -1,5 +1,5 @@
 import pytest
-from CC.Mock_Interviews.fibonacci_Sequence.fibonacciSequence import fib_recursive, fib_iterative
+from CC.Mock_Interviews.CC04.fibonacci_Sequence.fibonacciSequence import fib_recursive, fib_iterative
 
 
 def test_zero_fib():
