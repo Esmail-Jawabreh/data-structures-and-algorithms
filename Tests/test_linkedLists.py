@@ -107,7 +107,8 @@ def test_insert_after_linked_list_last():
 def test_kth_from_end_greater_than_length():
     ll = LinkedList()
     ll.head = Node(1)
-    assert ll.kth_from_end(2) == None
+    with pytest.raises(Exception):
+        ll.kth_from_end(2)
 
 
 def test_kth_from_end_same_length():
@@ -120,7 +121,8 @@ def test_kth_from_end_same_length():
 def test_kth_from_end_not_positive_integer():
     ll = LinkedList()
     ll.head = Node(1)
-    assert ll.kth_from_end(-1) == None
+    with pytest.raises(Exception):
+        ll.kth_from_end(-1)
 
 
 def test_kth_from_end_size_1():
