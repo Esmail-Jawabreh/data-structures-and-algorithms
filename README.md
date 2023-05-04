@@ -11,6 +11,7 @@
 |       7        | linked-lists: Linked List kth                               | [Linked Lists](./CC/linkedLists/)              |
 |       8        | linked-lists: Linked List zip                               | [Linked Lists](./CC/linkedLists/)              |
 |       9        | mock-interviews(Reverse-LinkedList & palindrome-LinkedList) | [Mock Interviews](./CC/Mock_Interviews/CC09/)  |
+|       10       | stack-and-queue                                             | [Stack & Queue](./CC/stack_and_queue/)         | 
 
 ---
 
