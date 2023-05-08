@@ -1,8 +1,9 @@
 ## stack-and-queue
-* Code Challenge 10
+* Code Challenge 10 & 11
 ---
 <br>
 
+## Code Challenge 10
 ### Features
 #### Using a Linked List as the underlying data storage mechanism, implement both a Stack and a Queue (Python)
 <br>
@@ -82,6 +83,31 @@
 - Can successfully empty a queue after multiple dequeues
 - Can successfully instantiate an empty queue
 - Calling dequeue or peek on empty queue raises exception
+
+---
+<br>
+
+## Code Challenge 11
+### Feature 
+#### Create a new class called pseudo queue.
+#### Do not use an existing Queue.
+#### Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),
+#### Internally, utilize 2 Stack instances to create and manage the queue
+#### Methods:
+- enqueue
+##### Arguments: value
+##### Inserts a value into the PseudoQueue, using a first-in, first-out approach.
+- dequeue
+##### Arguments: none
+##### Extracts a value from the PseudoQueue, using a first-in, first-out approach.
+<br>
+
+#### NOTE: The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
+<br>
+
+### WhiteBoard
+![WhiteBoard](./stack_and_queue_Pseudo_WhiteBoard.png)
+<br>
 
 ---
 <br>
