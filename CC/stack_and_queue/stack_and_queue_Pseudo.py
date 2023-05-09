@@ -86,3 +86,5 @@ class PseudoQueue:
         if self.stack1.is_empty():
             raise Exception("PseudoQueue is empty")
         return self.stack1.pop()
+
+
