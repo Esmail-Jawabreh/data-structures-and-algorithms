@@ -1,5 +1,5 @@
 import pytest
-from CC.stack_and_queue.stack_and_queue_Pseudo import PseudoQueue
+from CC.stack_and_queue.stack_queue_Pseudo import PseudoQueue
 
 
 def test_pseudo_queue_happy_path():
