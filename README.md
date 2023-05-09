@@ -13,6 +13,7 @@
 |       9        | mock-interviews(Reverse-LinkedList & palindrome-LinkedList) | [Mock Interviews](./CC/Mock_Interviews/CC09/)  |
 |       10       | stack-and-queue                                             | [Stack & Queue](./CC/stack_and_queue/)         | 
 |       11       | stack-and-queue-Pseudo                                      | [Pseudo](./CC/stack_and_queue/)                |
+|       12       | stack-and-queue-AnimalShelter                               | [AnimalShelter](./CC/stack_and_queue/)         |
 
 ---
 

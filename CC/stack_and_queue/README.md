@@ -1,5 +1,5 @@
 ## stack-and-queue
-* Code Challenge 10 & 11
+* Code Challenge 10 & 11 & 12
 ---
 <br>
 
@@ -84,6 +84,8 @@
 - Can successfully instantiate an empty queue
 - Calling dequeue or peek on empty queue raises exception
 
+<br>
+
 ---
 <br>
 
@@ -107,6 +109,66 @@
 
 ### WhiteBoard
 ![WhiteBoard](./stack_and_queue_Pseudo_WhiteBoard.png)
+<br>
+
+---
+<br>
+
+
+
+## Code Challenge 12
+- First-in, First out Animal Shelter.
+
+### Feature Tasks
+#### Create a class called AnimalShelter which holds only dogs and cats.
+#### The shelter operates using a first-in, first-out approach.
+#### Implement the following methods:
+
+<ul>
+
+<li>enqueue
+<ul>
+<li>Arguments: animal
+<ul>
+<li>animal can be either a dog or a cat object.</li>
+<li>It must have a species property that is either "cat" or "dog"</li>
+<li>It must have a name property that is a string.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li>dequeue
+<ul>
+<li>Arguments: pref
+<ul>
+<li>pref can be either "dog" or "cat"</li>
+</ul>
+</li>
+
+<li>Return: either a dog or a cat, based on preference.
+<ul>
+<li>If pref is not "dog" or "cat" then return null.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+</ul>
+<br>
+
+### Stretch Goal
+#### If a cat or dog isn’t preferred, return whichever animal has been waiting in the shelter the longest.
+
+<br>
+
+### WhiteBoard
+![WhiteBoard](./stack_and_queue_AnimalShelter_WhiteBoard.png)
+
+
+
 <br>
 
 ---
