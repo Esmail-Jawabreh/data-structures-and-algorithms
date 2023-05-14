@@ -1,5 +1,5 @@
 ## stack-and-queue
-* Code Challenge 10 & 11 & 12
+* Code Challenge 10 & 11 & 12 & 13 
 ---
 <br>
 
@@ -108,7 +108,7 @@
 <br>
 
 ### WhiteBoard
-![WhiteBoard](./stack_and_queue_Pseudo_WhiteBoard.png)
+![WhiteBoard](./Assets/stack_and_queue_Pseudo_WhiteBoard.png)
 <br>
 
 ---
@@ -165,12 +165,54 @@
 <br>
 
 ### WhiteBoard
-![WhiteBoard](./stack_and_queue_AnimalShelter_WhiteBoard.png)
+![WhiteBoard](./Assets/stack_and_queue_AnimalShelter_WhiteBoard.png)
 
 
 
 <br>
 
+---
+<br>
+
+## Code Challenge 13
+### Feature Tasks
+#### Write a function called validate brackets
+- Arguments: string
+- Return: boolean
+    - representing whether or not the brackets in the string are balanced
+
+#### There are 3 types of brackets:
+- Round Brackets : ()
+- Square Brackets : []
+- Curly Brackets : {}
+
+<br>
+
+### Example
+|Input                      |Output |
+| ---                       | ---   |
+| {}	                    | TRUE  |
+| {}(){}	                | TRUE  |
+| ()[[Extra Characters]]	| TRUE  |
+| (){}[[]]	                | TRUE  |
+| [({}]	                    | FALSE |
+| (](	                    | FALSE |
+| {(})	                    | FALSE |
+<br>
+
+#### Consider these small examples and why they fail.
+
+|Input | Output	 | Why                                                    |
+| ---  | ---     | ---                                                    |
+|{	   | FALSE	 | error unmatched opening { remaining.                   |
+|)	   | FALSE	 | error closing ) arrived without corresponding opening. |
+|[}	   | FALSE	 | error closing }. Doesn’t match opening (.              |
+<br>
+
+### WhiteBoard
+![WhiteBoard](./Assets/stack_queue_Brackets_WhiteBoard.png)
+
+<br>
 ---
 <br>
 
