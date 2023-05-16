@@ -1,4 +1,14 @@
 def validate_brackets(string):
+    """
+    Validates if the brackets in a given string are balanced and properly matched.
+
+    Args:
+        string (str): The string containing brackets to be validated.
+
+    Returns:
+        bool: True if all brackets are balanced and properly matched, False otherwise.
+    """
+    
     stack = []
     opening_brackets = {"(", "[", "{"}
     closing_brackets = {")", "]", "}"}
