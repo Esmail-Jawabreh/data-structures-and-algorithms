@@ -15,6 +15,7 @@
 |       11       | stack-and-queue-Pseudo                                      | [Pseudo](./CC/stack_and_queue/)                |
 |       12       | stack-and-queue-AnimalShelter                               | [AnimalShelter](./CC/stack_and_queue/)         |
 |       13       | stack-queue-brackets                                        | [Brackets](./CC/stack_and_queue/)              |
+|       14       | mock-interviews(Max-stack & Duck-Duck-Goose)                | [Mock Interviews](./CC/Mock_Interviews/CC14/)  |
 
 ---
 
