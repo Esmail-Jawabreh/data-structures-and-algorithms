@@ -6,12 +6,34 @@ class BinaryTree:
         self.root = None
 
     def find_maximum_value(self):
+        """
+        Finds the maximum value stored in a binary tree.
+
+        Args:
+            root: The root node of the binary tree.
+
+        Returns:
+            The maximum value stored in the binary tree.
+
+        Raises:
+            Exception: If the binary tree is empty (root is null).
+        """
         if self.root is None:
             raise Exception("Binary tree is empty")
 
         return self._find_maximum_value_helper(self.root)
 
     def _find_maximum_value_helper(self, node):
+        """
+        Recursively traverses the binary tree to find the maximum value.
+
+        Args:
+            node: The current node being processed.
+            max_value: The current maximum value found in the tree.
+
+        Returns:
+            None
+        """
         if node is None:
             return float("-inf")
 
