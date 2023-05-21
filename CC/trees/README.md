@@ -1,11 +1,12 @@
 ## Trees
-- Code Challenge 15
+- Code Challenge 15 & 16
 
 <br>
 
 ---
 <br>
 
+## Code Challenge 15
 ### Features
 <br>
 
@@ -51,3 +52,23 @@
 <br>
 
 ---
+<br>
+
+## Code Challenge 16
+### Feature Tasks
+
+#### Write the following method for the Binary Tree class
+
+- find maximum value
+    - Arguments: none
+    - Returns: number
+
+<br>
+
+- Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+<br>
+
+### WhiteBoard
+![whiteboard](./maxValue_WhiteBoard.png)
+<br>

@@ -1,5 +1,7 @@
 import pytest
-from CC.trees.binaryTree_and_binarySearchTree import BinarySearchTree
+from CC.trees.binaryTree import *
+from CC.trees.binarySearchTree import *
+from CC.trees.maximumValue import *
 
 
 @pytest.fixture
@@ -27,6 +29,7 @@ def sample_tree():
     return tree
 
 
+## CC-15
 def test_instantiate_empty_tree(empty_tree):
     assert empty_tree.root is None
 
@@ -68,3 +71,34 @@ def test_contains_non_existing_value(sample_tree):
     assert sample_tree.contains(3) is False
     assert sample_tree.contains(100) is False
     assert sample_tree.contains(8) is False
+
+
+## CC-16
+def test_find_maximum_value():
+    # Test case 1: Empty tree
+    tree = BinaryTree()
+    with pytest.raises(Exception):
+        tree.find_maximum_value()
+
+    # Test case 2: Tree with a single node
+    tree = BinaryTree()
+    tree.root = Node(5)
+    assert tree.find_maximum_value() == 5
+
+    # Test case 3: Tree with multiple nodes
+    tree = BinaryTree()
+    tree.root = Node(5)
+    tree.root.left = Node(3)
+    tree.root.right = Node(8)
+    tree.root.left.left = Node(9)
+    tree.root.left.right = Node(4)
+    tree.root.right.left = Node(2)
+    tree.root.right.right = Node(7)
+    assert tree.find_maximum_value() == 9
+
+    # Test case 4: Tree with negative values
+    tree = BinaryTree()
+    tree.root = Node(-2)
+    tree.root.left = Node(-5)
+    tree.root.right = Node(-1)
+    assert tree.find_maximum_value() == -1
