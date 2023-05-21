@@ -51,6 +51,11 @@
 
 <br>
 
+### WhiteBoard
+![whiteboard](./binarySearchTree_WhiteBoard.png)
+
+<br>
+
 ---
 <br>
 
