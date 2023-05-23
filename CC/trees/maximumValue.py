@@ -1,7 +1,7 @@
-from CC.trees.binaryTree import *
+from CC.trees.theNode import Node
 
 
-class BinaryTree:
+class MaximumValue:
     def __init__(self):
         self.root = None
 

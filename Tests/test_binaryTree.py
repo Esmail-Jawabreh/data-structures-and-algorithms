@@ -1,7 +1,8 @@
 import pytest
-from CC.trees.binaryTree import *
-from CC.trees.binarySearchTree import *
-from CC.trees.maximumValue import *
+from CC.trees.binaryTree import BinaryTree
+from CC.trees.binarySearchTree import BinarySearchTree
+from CC.trees.maximumValue import MaximumValue
+from CC.trees.breadthFirst import *
 
 
 @pytest.fixture
@@ -76,17 +77,17 @@ def test_contains_non_existing_value(sample_tree):
 ## CC-16
 def test_find_maximum_value():
     # Test case 1: Empty tree
-    tree = BinaryTree()
+    tree = MaximumValue()
     with pytest.raises(Exception):
         tree.find_maximum_value()
 
     # Test case 2: Tree with a single node
-    tree = BinaryTree()
+    tree = MaximumValue()
     tree.root = Node(5)
     assert tree.find_maximum_value() == 5
 
     # Test case 3: Tree with multiple nodes
-    tree = BinaryTree()
+    tree = MaximumValue()
     tree.root = Node(5)
     tree.root.left = Node(3)
     tree.root.right = Node(8)
@@ -97,8 +98,59 @@ def test_find_maximum_value():
     assert tree.find_maximum_value() == 9
 
     # Test case 4: Tree with negative values
-    tree = BinaryTree()
+    tree = MaximumValue()
     tree.root = Node(-2)
     tree.root.left = Node(-5)
     tree.root.right = Node(-1)
     assert tree.find_maximum_value() == -1
+
+
+## CC-17
+def create_binary_tree():  # Helper function to create a binary tree
+    tree = Node(2)
+    tree.left = Node(7)
+    tree.right = Node(5)
+    tree.left.left = Node(2)
+    tree.left.right = Node(6)
+    tree.left.right.left = Node(5)
+    tree.left.right.right = Node(11)
+    tree.right.right = Node(9)
+    tree.right.right.left = Node(4)
+    return tree
+
+
+def test_breadth_first():
+    # Test with the given binary tree: 2, 7, 5, 2, 6, 9, 5, 11, 4
+    tree = create_binary_tree()
+    assert breadth_first(tree) == [2, 7, 5, 2, 6, 9, 5, 11, 4]
+
+    # Test with an empty tree
+    assert breadth_first(None) == []
+
+    # Test with a tree containing a single node
+    tree = Node(1)
+    assert breadth_first(tree) == [1]
+
+    # Test with a tree containing multiple levels and a mix of values
+    tree = Node(1)
+    tree.left = Node(2)
+    tree.right = Node(3)
+    tree.left.left = Node(4)
+    tree.left.right = Node(5)
+    tree.right.left = Node(6)
+    tree.right.right = Node(7)
+    assert breadth_first(tree) == [1, 2, 3, 4, 5, 6, 7]
+
+    # Test with a tree containing only left children
+    tree = Node(1)
+    tree.left = Node(2)
+    tree.left.left = Node(3)
+    tree.left.left.left = Node(4)
+    assert breadth_first(tree) == [1, 2, 3, 4]
+
+    # Test with a tree containing only right children
+    tree = Node(1)
+    tree.right = Node(2)
+    tree.right.right = Node(3)
+    tree.right.right.right = Node(4)
+    assert breadth_first(tree) == [1, 2, 3, 4]
