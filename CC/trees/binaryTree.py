@@ -1,8 +1,4 @@
-class Node:
-    def __init__(self, value):
-        self.value = value
-        self.left = None
-        self.right = None
+from CC.trees.theNode import Node
 
 
 class BinaryTree:

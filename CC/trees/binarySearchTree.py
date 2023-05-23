@@ -1,4 +1,5 @@
-from CC.trees.binaryTree import *
+from CC.trees.theNode import Node
+from CC.trees.binaryTree import BinaryTree
 
 
 class BinarySearchTree(BinaryTree):

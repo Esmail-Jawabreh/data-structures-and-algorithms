@@ -1,5 +1,5 @@
 ## Trees
-- Code Challenge 15 & 16
+- Code Challenge 15 & 16 & 17
 
 <br>
 
@@ -7,6 +7,11 @@
 <br>
 
 ## Code Challenge 15
+- [Binary Tree](./binaryTree.py)
+- [Binary Search Tree](./binarySearchTree.py)
+
+<br>
+
 ### Features
 <br>
 
@@ -52,7 +57,7 @@
 <br>
 
 ### WhiteBoard
-![whiteboard](./binarySearchTree_WhiteBoard.png)
+![whiteboard](./Assets/binarySearchTree_WhiteBoard.png)
 
 <br>
 
@@ -60,6 +65,10 @@
 <br>
 
 ## Code Challenge 16
+- [Maximum Value](./maximumValue.py)
+
+<br>
+
 ### Feature Tasks
 
 #### Write the following method for the Binary Tree class
@@ -75,5 +84,47 @@
 <br>
 
 ### WhiteBoard
-![whiteboard](./maxValue_WhiteBoard.png)
+![whiteboard](./Assets/maxValue_WhiteBoard.png)
+
+<br>
+
+---
+<br>
+
+## Code Challenge 17
+- [Breadth First](./breadthFirst.py)
+
+<br>
+
+### Feature Tasks
+- Write a function called breadth first
+- Arguments: tree
+- Return: list of all values in the tree, in the order they were encountered
+
+<br>
+
+#### Example: 
+```
+     2
+   /   \
+  7      5
+ / \      \
+2   6      9
+   / \     /
+  5  11   4
+```   
+
+#### Output:
+```
+[2,7,5,2,6,9,5,11,4]
+```
+
+<br>
+
+### WhiteBoard
+![whiteboard](./Assets/breadthFirst.png)
+
+<br>
+
+---
 <br>
