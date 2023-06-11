@@ -19,6 +19,7 @@
 |       15       | Trees (BinaryTree & BinarySearchTree)                        | [Trees](./CC/trees/)                           |
 |       16       | Tree (MaxValue)                                              | [Trees](./CC/trees/)                           |
 |       17       | Tree (breadth first)                                         | [Trees](./CC/trees/)                           |
+|       26       | Insertion Sort                                               | [Insertion](./CC/insertionSort/)               |
 
 ---
 
