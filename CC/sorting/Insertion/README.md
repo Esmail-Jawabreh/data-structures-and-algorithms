@@ -155,7 +155,7 @@ InsertionSort(int[] input)
 
 ### you can find the code implementation [here](./insertion.py)
 
-### you can find the complete set of working tests for the implementation [here](../../Tests/test_insertionSort.py)
+### you can find the complete set of working tests for the implementation [here](../../../Tests/test_insertionSort.py)
 
 <br>
 
