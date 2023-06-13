@@ -1,5 +1,6 @@
 import pytest
-from CC.insertionSort.insertion import insertion_sort
+from CC.sorting.Insertion.insertion import insertion_sort
+
 
 def test_insertion_sort():
     # Sample Array: [8, 4, 23, 42, 16, 15]
@@ -13,4 +14,3 @@ def test_insertion_sort():
 
     # Nearly-sorted Array: [2, 3, 5, 7, 13, 11]
     assert insertion_sort([2, 3, 5, 7, 13, 11]) == [2, 3, 5, 7, 11, 13]
-
