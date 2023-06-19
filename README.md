@@ -21,6 +21,7 @@
 |       17       | Tree (breadth first)                                         | [Trees](./CC/trees/)                           |
 |       26       | Insertion Sort                                               | [Insertion](./CC/sorting/Insertion)            |
 |       27       | Merge Sort                                                   | [Merge](./CC/sorting/Merge/)                   |
+|       28       | Sort Comparisons                                             | [Comparisons](./CC/sorting/Comparisons/)       |
 
 ---
 
