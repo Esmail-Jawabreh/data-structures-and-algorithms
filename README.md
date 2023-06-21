@@ -22,6 +22,7 @@
 |       26       | Insertion Sort                                               | [Insertion](./CC/sorting/Insertion)            |
 |       27       | Merge Sort                                                   | [Merge](./CC/sorting/Merge/)                   |
 |       28       | Sort Comparisons                                             | [Comparisons](./CC/sorting/Comparisons/)       |
+|       29       | mock-interviews (MergeSort & InsertionSort)                  | [Mock Interviews](./CC/Mock_Interviews/CC29/)  |
 
 ---
 
