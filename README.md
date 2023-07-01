@@ -23,7 +23,7 @@
 |       27       | Merge Sort                                                   | [Merge](./CC/sorting/Merge/)                   |
 |       28       | Sort Comparisons                                             | [Comparisons](./CC/sorting/Comparisons/)       |
 |       29       | mock-interviews (MergeSort & InsertionSort)                  | [Mock Interviews](./CC/Mock_Interviews/CC29/)  |
-|       30       | Hash-Tables                                                  | [Hash Tables](./CC/Mock_Interviews/CC29/)  |
+|       30       | Hash-Tables                                                  | [Hash Tables](./CC/hashTables/)  |
 
 
 ---
