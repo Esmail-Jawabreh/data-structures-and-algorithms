@@ -1,5 +1,5 @@
 # data-structures-and-algorithms
- 
+
 | Code Challenge | Description                                                  |  Link                                          |
 | -------------- | ------------                                                 | ----------------                               |
 |       1        | reverse-array                                                | [Reverse Array](./CC/reverseArray/)            |
@@ -23,8 +23,8 @@
 |       27       | Merge Sort                                                   | [Merge](./CC/sorting/Merge/)                   |
 |       28       | Sort Comparisons                                             | [Comparisons](./CC/sorting/Comparisons/)       |
 |       29       | mock-interviews (MergeSort & InsertionSort)                  | [Mock Interviews](./CC/Mock_Interviews/CC29/)  |
-|       30       | Hash-Tables                                                  | [Hash Tables](./CC/hashTables/)  |
-
+|       30       | Hash-Tables                                                  | [Hash Tables](./CC/hashTables/)                |
+|       31       | Hash-Tables: repeated-word                                   | [Hash Map](./CC/hashTables/)                   |
 
 ---
 
