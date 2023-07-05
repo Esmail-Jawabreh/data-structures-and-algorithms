@@ -25,6 +25,7 @@
 |       29       | mock-interviews (MergeSort & InsertionSort)                  | [Mock Interviews](./CC/Mock_Interviews/CC29/)  |
 |       30       | Hash-Tables                                                  | [Hash Tables](./CC/hashTables/)                |
 |       31       | Hash-Tables: repeated-word                                   | [Hash Map](./CC/hashTables/)                   |
+|       32       | Tree (Intersection)                                          | [Intersection](./CC/trees/)                    |
 
 ---
 

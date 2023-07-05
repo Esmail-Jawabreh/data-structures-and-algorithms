@@ -1,5 +1,5 @@
 ## Trees
-- Code Challenge 15 & 16 & 17
+- Code Challenge 15 & 16 & 17 & 32
 
 <br>
 
@@ -123,6 +123,70 @@
 
 ### WhiteBoard
 ![whiteboard](./Assets/breadthFirst.png)
+
+<br>
+
+---
+<br>
+
+## Code Challenge 32
+- [Intersection](./intersection.py)
+
+<br>
+
+### Feature Tasks
+
+- Write a function called tree_intersection that takes two binary trees as parameters.
+- Using your Hashmap implementation as a part of your algorithm, return a set of values found in both trees
+
+<br>
+
+### Structure and Testing
+- Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
+
+- Write at least three test assertions for each method that you define.
+
+<br>
+
+### Example
+<br>
+
+- Input:
+    ```
+                  150
+                /     \
+             100       250
+            /   \      /  \
+          75    160  200   350
+                /  \       /  \
+              125  175   300   500
+    ```
+    <br>
+
+    ```
+                   42
+                /     \
+             100       600
+            /   \      /  \
+          15    160  200   350
+                /  \       /  \
+              125  175    4   500
+    ```
+
+<br>
+
+- Output:
+```
+100,160,125,175,200,350,500
+```
+
+<br>
+<br>
+
+
+### WhiteBoard
+
+![whiteboard](./Assets/intersection_Whiteboard.png)
 
 <br>
 
