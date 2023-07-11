@@ -27,6 +27,7 @@
 |       31       | Hash-Tables: repeated-word                                   | [Hash Map](./CC/hashTables/)                   |
 |       32       | Intersection                                                 | [Intersection](./CC/hashTables/)               |
 |       33       | Hash-Tables: Left-Join                                       | [Left-Join](./CC/hashTables/)                  |
+|       34       | mock-interviews (MostCommonWord & UniqueString)              | [Mock Interviews](./CC/Mock_Interviews/CC34/)  |
 
 
 ---
