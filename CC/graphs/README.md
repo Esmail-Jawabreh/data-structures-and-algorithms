@@ -1,10 +1,12 @@
 ## Graphs
-- Code Challenge 35
+- Code Challenge 35 & 36 
 
 <br>
 
 ---
 <br>
+
+## Code Challenge 35
 
 ### Features
 
@@ -49,6 +51,10 @@
 
 <br>
 
+---
+<br>
+
+## Code Challenge 36
 ### Structure and Testing
 
 #### Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
@@ -69,4 +75,50 @@
 
 <br>
 
+
+<br>
+
+### Feature Tasks
+#### Write the following method for the Graph class:
+
+- breadth first
+- Arguments: Node
+- Return: A collection of nodes in the order they were visited.
+- Display the collection
+
+
+<br>
+
+### Structure and Testing
+#### Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
+
+<br>
+
+### Example:
+```
+        Panda
+           \ 
+            Arendelle
+            /       \ 
+     Metroville -- Monstroplolis
+        /     \    /
+     Narnia -- Naboo
+```
+<br>
+
+#### Output:
+```
+Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo
+```
+<br>
+
+
+### WhiteBoard
+<br>
+
+![WhiteBoard](./Assets/WhiteBoard.png)
+
+<br>
+
 ---
+<br>
