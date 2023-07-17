@@ -51,6 +51,12 @@
 
 <br>
 
+### WhiteBoard
+<br>
+
+![WhiteBoard](./Assets/graphsWhiteBoard.png)
+
+<br>
 ---
 <br>
 
@@ -116,7 +122,7 @@ Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo
 ### WhiteBoard
 <br>
 
-![WhiteBoard](./Assets/WhiteBoard.png)
+![WhiteBoard](./Assets/graph_breadthFirstWhiteBoard.png)
 
 <br>
 
