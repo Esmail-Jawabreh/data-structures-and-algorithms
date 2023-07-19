@@ -29,8 +29,8 @@
 |       33       | Hash-Tables: Left-Join                                       | [Left-Join](./CC/hashTables/)                  |
 |       34       | mock-interviews (MostCommonWord & UniqueString)              | [Mock Interviews](./CC/Mock_Interviews/CC34/)  |
 |       35       | Graphs                                                       | [Graphs](./CC/graphs/)                         |
-|       36       | Graphs (breadth first)                                       | [Graphs](./CC/graphs/)                         |
-
+|       36       | Graph (Breadth First)                                        | [Graphs](./CC/graphs/)                         |
+|       37       | Graph (Business Trip)                                        | [Graphs](./CC/graphs/)                         |
 
 ---
 
