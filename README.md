@@ -31,6 +31,7 @@
 |       35       | Graphs                                                       | [Graphs](./CC/graphs/)                         |
 |       36       | Graph (Breadth First)                                        | [Graphs](./CC/graphs/)                         |
 |       37       | Graph (Business Trip)                                        | [Graphs](./CC/graphs/)                         |
+|       38       | Graph (Depth First)                                          | [Graphs](./CC/graphs/)                         |
 
 ---
 

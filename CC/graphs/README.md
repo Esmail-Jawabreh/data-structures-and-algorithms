@@ -1,5 +1,5 @@
 ## Graphs
-- Code Challenge 35 & 36 & 37
+- Code Challenge 35 & 36 & 37 & 38
 
 <br>
 
@@ -51,6 +51,27 @@
 
 <br>
 
+### Structure and Testing
+
+#### Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
+
+#### Be sure to follow your language/frameworks standard naming conventions (e.g. C# uses PascalCasing for all method and class names).
+
+#### Any exceptions or errors that come from your code should be contextual, descriptive, capture-able errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom error that describes what went wrong in calling the methods you wrote for this lab.
+
+#### Write tests to prove the following functionality:
+- Vertex can be successfully added to the graph
+- An edge can be successfully added to the graph
+- A collection of all vertices can be properly retrieved from the graph
+- All appropriate neighbors can be retrieved from the graph
+- Neighbors are returned with the weight between vertices included
+- The proper size is returned, representing the number of vertices in the graph
+- A graph with only one vertex and edge can be properly returned
+
+
+<br>
+
+
 ### WhiteBoard
 <br>
 
@@ -62,28 +83,6 @@
 <br>
 
 ## Code Challenge 36
-### Structure and Testing
-
-#### Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
-
-#### Be sure to follow your language/frameworks standard naming conventions (e.g. C# uses PascalCasing for all method and class names).
-
-#### Any exceptions or errors that come from your code should be contextual, descriptive, capture-able errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom error that describes what went wrong in calling the methods you wrote for this lab.
-<br>
-
-#### Write tests to prove the following functionality:
-- Vertex can be successfully added to the graph
-- An edge can be successfully added to the graph
-- A collection of all vertices can be properly retrieved from the graph
-- All appropriate neighbors can be retrieved from the graph
-- Neighbors are returned with the weight between vertices included
-- The proper size is returned, representing the number of vertices in the graph
-- A graph with only one vertex and edge can be properly returned
-
-<br>
-
-
-<br>
 
 ### Feature Tasks
 #### Write the following method for the Graph class:
@@ -175,6 +174,48 @@ Pandora  -- $150 -- Arendelle
 
 ![WhiteBoard](./Assets/graph_businessTripWhiteBoard.png)
 
+<br>
+
+---
+<br>
+
+## Code Challenge 38
+
+### Feature Tasks
+#### Write the following method for the Graph class:
+
+- Name: Depth first
+- Arguments: Node (Starting point of search)
+- Return: A collection of nodes in their pre-order depth-first traversal order
+- Program output: Display the collection
+
+<br>
+
+### Example
+```
+Root -->  A 
+         /  \ 
+        B -- D -- F
+       /    / \  /
+      C     E  H
+     /
+    G
+```
+
+#### Output: 
+```
+A, B, C, G, D, E, H, F
+```
+
+<br>
+
+### Structure and Testing
+#### Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
+
+### Whiteboard
+<br>
+
+![WhiteBoard](./Assets/graph_depthFirstWhiteBoard.png)
 <br>
 
 ---
